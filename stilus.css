@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td, th {
+    padding:  5px;
+}
+table {
+    width: 80%;
+    margin: auto;
+}
+th {
+    background-color: blue;
+    color: antiquewhite;
+}
+tr:nth-child(odd) {
+    background-color: lightcoral;
+}
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+tr:hover {
+    background-color: brown;
+    cursor: grab;
+}
